@@ -142,6 +142,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Text Include="dictionary.txt" />
+    <Text Include="HighScores.txt" />
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
