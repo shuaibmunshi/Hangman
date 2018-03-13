@@ -1,40 +1,9 @@
 ========================================================================
-    CONSOLE APPLICATION : Assignment5 Project Overview
+    CONSOLE APPLICATION : Hangman Game
 ========================================================================
 
-AppWizard has created this Assignment5 application for you.
-
-This file contains a summary of what you will find in each of the files that
-make up your Assignment5 application.
-
-
-Assignment5.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-Assignment5.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
-
-Assignment5.cpp
-    This is the main application source file.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named Assignment5.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+Creates a vector of words from the dictionary.txt file. 
+Creates a vector with every letter in the alphabet. 
+Chooses a random word and makes a vector of chars for that word as well as a vector of underscores with the same length. 
+When user chooses a character, the vector for the random word is checked and if that character exists then that letter is found and removed in the alphabet vector and the vector with the underscores has the corresponding underscore changed to the letter. 
+Saves out the user highscore to a file if menu option 2 is chosen. 
